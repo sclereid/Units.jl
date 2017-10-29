@@ -35,7 +35,7 @@ function show(io::IO, x::Physical{T, m, kg, s, A, K, mol, cd}) where {T, m, kg, 
     print(io, "$(x.value)")
     for (u, v) in [(kg, :kg), (A, :A), (m, :m), (K, :K), (mol, :mol), (cd, :cd), (s, :s)]
         if u != 0
-            print(io, "⋅", v)
+            print(io, '⋅', v)
             if u < 0
                 print(io, '⁻')
             end

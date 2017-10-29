@@ -1,3 +1,10 @@
+## storge
+.DS_Store
+
+## text editor
+*~
+
+## julia
 *.jl.cov
 *.jl.*.cov
 *.jl.mem
