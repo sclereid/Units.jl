@@ -61,7 +61,8 @@ log(b, m) = log(m) - log(b)
     warn("Type mismatch while adding $x and $y")
     x.value + y.value
 end
+
 (-)(x::Physical, y::Physical) = begin
-    warn("Type mismatch while adding $x and $y")
+    warn("Type mismatch while substracting $x and $y")
     x.value + y.value
 end

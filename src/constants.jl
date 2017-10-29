@@ -21,3 +21,6 @@ tesla = weber/meter^2
 henry = weber/ampere
 lumen = candela
 lux = lumen/meter^2
+
+NA = 6.02e23/mole
+planck = 6.62607004081e-34joule/second
